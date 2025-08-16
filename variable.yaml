@@ -1,0 +1,6 @@
+- name: Variables
+  hosts: web
+  taskes:
+  - name: learing ansible Variables
+    ansible.builtin.debug:
+      msg: "hey, Naveen i am learing DevOps with AWS course ,its duration is 120HRS"
