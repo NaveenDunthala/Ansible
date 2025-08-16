@@ -4,3 +4,18 @@
   - name: PLAY_01 TASK-01
     ansible.builtin.debug:
       msg: "Hi Play_01, Task-01 is completed?"
+  
+  - name: PLAY_01 TASK-02
+    ansible.builtin.debug:
+      msg: "Hi Play_01, Task-02 is completed?"
+
+- name: PLAY_02
+  hosts: web
+  tasks:
+  - name: PLAY_02 TASK-01
+    ansible.builtin.debug:
+      msg: "Hi Play_01, Task-01 is completed successfully"
+  
+  - name: PLAY_01 TASK-02
+    ansible.builtin.debug:
+      msg: "Hi Play_01, Task-02 is completed successfully""
