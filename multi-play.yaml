@@ -3,5 +3,4 @@
   tasks:
   - name: PLAY_01 TASK-01
     ansible.builtin.debug:
-      msg: Hi Play_01, Task-01 is completed
-      
+      "msg": "Hi Play_01, Task-01 is completed?"
