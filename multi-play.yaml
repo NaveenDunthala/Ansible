@@ -18,4 +18,4 @@
   
   - name: PLAY_01 TASK-02
     ansible.builtin.debug:
-      msg: "Hi Play_01, Task-02 is completed successfully""
+      msg: "Hi Play_01, Task-02 is completed successfully"
