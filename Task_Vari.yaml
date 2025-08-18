@@ -1,9 +1,12 @@
 - name: Task level Variables
   hosts: web
-  vars:
+  vars_prompt:
     WHO: "Naveen Kumar Reddy Dunthala"
+    prompt: Please enter your name
     WHARE: "Benglore"
+    prompt: whare you are living prasent
     Working: "software engineer"
+    prompt: please enter the duration
   tasks: 
   - name: print information
     ansible.builtin.debug:
