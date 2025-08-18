@@ -2,6 +2,5 @@
   hosts: web
   tasks: 
   - name: print information
-    anisble.builtin.debug:
-
+    ansible.builtin.debug:
       msg: "hey hi i am naveen, i am from bengalore and working as a software engineer"
