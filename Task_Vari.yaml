@@ -3,13 +3,13 @@
   vars_prompt:
   - name: WHO
     prompt: Please enter your name
-    defult: "Naveen Kumar Reddy Dunthala"
+    default: "Naveen Kumar Reddy Dunthala"
   - name: WHARE
     prompt: whare you are living prasent 
-    defult: "Benglore"
+    default: "Benglore"
   - name: Working
     prompt: please enter the duration
-    defult: "software engineer"
+    default: "software engineer"
   tasks: 
   - name: print information
     ansible.builtin.debug:
