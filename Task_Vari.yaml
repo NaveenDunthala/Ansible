@@ -14,7 +14,7 @@
       DEGRE: "B.Tech"
       WHARE: "Rajampet"
     ansible.builtin.debug:
-      msg: "hey i completed {{DEGRE}} i am from {{WHARE}} and present working as a {{Working}}"
+      msg: "hey i completed {{DEGRE}} from {{WHARE}} and present working as a {{Working}}"
 
   - name: print information
     ansible.builtin.debug:
