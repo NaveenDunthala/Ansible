@@ -3,4 +3,5 @@
   tasks: 
   - name: print information
     anisble.builtin.debug:
-     msg: "hey hi i am naveen, i am from bengalore and working as a software engineer"
+
+      msg: "hey hi i am naveen, i am from bengalore and working as a software engineer"
