@@ -1,6 +1,10 @@
 - name: Task level Variables
   hosts: web
+  vars:
+    WHO: "Naveen Kumar Reddy Dunthala"
+    WHARE: "Benglore"
+    Working: "software engineer"
   tasks: 
   - name: print information
     ansible.builtin.debug:
-      msg: "hey hi i am naveen, i am from bengalore and working as a software engineer"
+      msg: "hey hi i am {{WHO}}, i am from {{WHARE}} and working as a {{Working}}"
