@@ -1,6 +1,6 @@
 - name: Data_Types
   hosts: local
-  conection: local
+  connection: local
   vars:
     COURSE: "Devops with AWS" #string
     DURATION: 120 #Number
@@ -18,6 +18,6 @@
       cloud: AWS
   tasks:
   - name: print the course information
-  ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: "Hi, i am learing {{COURSE}} , with duration:{{DURATION}},topics are:{{Topic}}  , and live:{{live}}  ,tools are: {{tools}}"
  
