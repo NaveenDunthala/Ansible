@@ -8,3 +8,15 @@
   - name: print information
     ansible.builtin.debug:
       msg: "hey hi i am {{WHO}}, i am from {{WHARE}} and working as a {{Working}}"
+
+  - name: print what you are doing 
+    vars:
+      DEGRE: "B.Tech"
+      WHARE: "Rajampet"
+    ansible.builtin.debug:
+      msg: "hey i completed {{DEGRE}} i am from {{WHARE}} and present working as a {{Working}}"
+
+  - name: print information
+    ansible.builtin.debug:
+      msg: "hey my name is {{WHO}}, i'am living {{WHARE}} and working as a {{Working}}"
+  
